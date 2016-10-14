@@ -1,0 +1,6 @@
+framework module Pods_TourzSwiftTests {
+  umbrella header "Pods-TourzSwiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
