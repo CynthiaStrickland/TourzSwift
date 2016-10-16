@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>174232477788-ucjugavs2ova6n2v9fevofuutrbe0b15.apps.googleusercontent.com</string>
+	<string>852408273152-ronsu72eo4rkqtqbbtqe70us3hjmcld5.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.174232477788-ucjugavs2ova6n2v9fevofuutrbe0b15</string>
+	<string>com.googleusercontent.apps.852408273152-ronsu72eo4rkqtqbbtqe70us3hjmcld5</string>
 	<key>API_KEY</key>
-	<string>AIzaSyB76AK2dvgNsomoC2lMV-pFr3ON1pfpDgg</string>
+	<string>AIzaSyAMWOCsHmB-_-2mZOo4dxj3Fdb0ZAivnVg</string>
 	<key>GCM_SENDER_ID</key>
-	<string>174232477788</string>
+	<string>852408273152</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.tourz.ios</string>
 	<key>PROJECT_ID</key>
-	<string>tourz-de66c</string>
+	<string>tourzswift-9135e</string>
 	<key>STORAGE_BUCKET</key>
-	<string>tourz-de66c.appspot.com</string>
+	<string>tourzswift-9135e.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:174232477788:ios:3ed81fa711be7e34</string>
+	<string>1:852408273152:ios:3ed81fa711be7e34</string>
 	<key>DATABASE_URL</key>
-	<string>https://tourz-de66c.firebaseio.com</string>
+	<string>https://tourzswift-9135e.firebaseio.com</string>
 </dict>
 </plist>

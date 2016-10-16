@@ -8,6 +8,9 @@
 
 import UIKit
 import Firebase
+import FirebaseDatabase
+import FirebaseAuth
+import FirebaseStorage
 
 
 @UIApplicationMain
@@ -18,7 +21,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         FIRApp.configure()
+        FIRDatabase.database().persistenceEnabled = true
+
         return true
+    }
+    
+    func applicationWillTerminate(application: UIApplication) {
+        self.saveContext()
     }
 
 }

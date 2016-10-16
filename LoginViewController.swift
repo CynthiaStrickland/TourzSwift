@@ -21,7 +21,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var registerButton: UIButton!
-    @IBOutlet weak var userEmailTextField: UITextField!
+    @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var userPasswordTextField: UITextField!
     
     var ref:FIRDatabaseReference!
@@ -33,7 +33,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         
         if FIRAuth.auth()?.currentUser?.uid == nil {
             print("User needs to Register")
-            let userEmail = self.userEmailTextField.text!
+            let userEmail = self.usernameTextField.text!
             let alertView = UIAlertController(title: "No record of \(userEmail)",
                                               message: "You must register first" as String, preferredStyle:.alert)
             let okAction = UIAlertAction(title: "Try Again!", style: .default, handler: nil)
@@ -69,7 +69,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func loginButtonPressed(sender: AnyObject) {
-        let userEmail = self.userEmailTextField.text!
+        let userEmail = self.usernameTextField.text!
         let userPassword = self.userPasswordTextField.text!
         
         if userEmail != "" || userPassword != "" {
@@ -87,7 +87,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func RegisterButtonPressed(sender: AnyObject) {
-        let userEmail = self.userEmailTextField.text!
+        let userEmail = self.usernameTextField.text!
         let userPassword = self.userPasswordTextField.text!
         
         if userEmail != "" || userPassword != "" {
@@ -107,7 +107,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     }
     
     func userLoggedIn() {
-        let userEmail = self.userEmailTextField.text!
+        let userEmail = self.usernameTextField.text!
         let userPassword = self.userPasswordTextField.text!
         
         FIRAuth.auth()?.signIn(withEmail: userEmail, password: userPassword, completion: { (user, error) in
@@ -131,7 +131,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     }
     
     func userRegistered() {
-        let userEmail = self.userEmailTextField.text!
+        let userEmail = self.usernameTextField.text!
         let userPassword = self.userPasswordTextField.text!
 
         FIRAuth.auth()?.createUser(withEmail: userEmail, password: userPassword, completion: { (user: FIRUser?, error) in
@@ -165,7 +165,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     }
     
     func validateEmail() -> Bool {
-        let userEmail = self.userEmailTextField.text!
+        let userEmail = self.usernameTextField.text!
         
         do {
             let regex = try NSRegularExpression(pattern: "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}", options: [])
@@ -188,8 +188,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
 }
 
     
-    func textFieldShouldReturn(textField: UITextField) -> Bool {
-        userEmailTextField.resignFirstResponder()
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        usernameTextField.resignFirstResponder()
         userPasswordTextField.resignFirstResponder()
         return true
     }
@@ -199,10 +199,10 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     }
     
     func customButtons() {
-        userEmailTextField.layer.borderColor = buttonBorder
-        userEmailTextField.layer.backgroundColor  = buttonColor
-        userEmailTextField.layer.borderWidth = 1
-        userEmailTextField.layer.cornerRadius = 10
+        usernameTextField.layer.borderColor = buttonBorder
+        usernameTextField.layer.backgroundColor  = buttonColor
+        usernameTextField.layer.borderWidth = 1
+        usernameTextField.layer.cornerRadius = 10
         
         userPasswordTextField.layer.borderColor = buttonBorder
         userPasswordTextField.layer.backgroundColor  = buttonColor

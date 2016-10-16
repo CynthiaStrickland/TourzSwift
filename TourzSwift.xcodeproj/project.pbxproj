@@ -12,7 +12,6 @@
 		3D0DA23A1DB19E8000B74835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2391DB19E8000B74835 /* Assets.xcassets */; };
 		3D0DA2481DB19E8000B74835 /* TourzSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2471DB19E8000B74835 /* TourzSwiftTests.swift */; };
 		3D0DA2531DB19E8100B74835 /* TourzSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2521DB19E8100B74835 /* TourzSwiftUITests.swift */; };
-		3D0DA2611DB19EB900B74835 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2601DB19EB900B74835 /* GoogleService-Info (2).plist */; };
 		3D0DA2631DB1A14800B74835 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2621DB1A14800B74835 /* LoginViewController.swift */; };
 		3D0DA2671DB1A2BF00B74835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2661DB1A2BF00B74835 /* Main.storyboard */; };
 		3D0DA2691DB1A34900B74835 /* goldengatebridge copy700.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2681DB1A34900B74835 /* goldengatebridge copy700.jpg */; };
@@ -30,6 +29,8 @@
 		3D0DA2821DB1A37500B74835 /* Rectangle 3 Copy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2791DB1A37500B74835 /* Rectangle 3 Copy@2x.png */; };
 		3D0DA2831DB1A37500B74835 /* Rectangle 3 Copy@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA27A1DB1A37500B74835 /* Rectangle 3 Copy@3x.png */; };
 		3D0DA2861DB2F1BC00B74835 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2851DB2F1BC00B74835 /* background.png */; };
+		3D0DA2881DB2FACE00B74835 /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2871DB2FACE00B74835 /* PasswordResetViewController.swift */; };
+		3D0DA28A1DB2FBE000B74835 /* GoogleService-Info (4).plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2891DB2FBE000B74835 /* GoogleService-Info (4).plist */; };
 		5A0921E7242D6D2119E87970 /* Pods_TourzSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D394F0119E1C91C1F7459F /* Pods_TourzSwift.framework */; };
 		D977F7588780B3C8E1EFD8CE /* Pods_TourzSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA2694B331830420C9C8DA2 /* Pods_TourzSwiftTests.framework */; };
 /* End PBXBuildFile section */
@@ -64,7 +65,6 @@
 		3D0DA24E1DB19E8000B74835 /* TourzSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TourzSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D0DA2521DB19E8100B74835 /* TourzSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourzSwiftUITests.swift; sourceTree = "<group>"; };
 		3D0DA2541DB19E8100B74835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D0DA2601DB19EB900B74835 /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (2).plist"; sourceTree = "<group>"; };
 		3D0DA2621DB1A14800B74835 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3D0DA2661DB1A2BF00B74835 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3D0DA2681DB1A34900B74835 /* goldengatebridge copy700.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "goldengatebridge copy700.jpg"; path = "TourzSwift/goldengatebridge copy700.jpg"; sourceTree = "<group>"; };
@@ -82,6 +82,8 @@
 		3D0DA2791DB1A37500B74835 /* Rectangle 3 Copy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rectangle 3 Copy@2x.png"; path = "TourzSwift/Rectangle 3 Copy@2x.png"; sourceTree = "<group>"; };
 		3D0DA27A1DB1A37500B74835 /* Rectangle 3 Copy@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rectangle 3 Copy@3x.png"; path = "TourzSwift/Rectangle 3 Copy@3x.png"; sourceTree = "<group>"; };
 		3D0DA2851DB2F1BC00B74835 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = TourzSwiftUITests/background.png; sourceTree = "<group>"; };
+		3D0DA2871DB2FACE00B74835 /* PasswordResetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
+		3D0DA2891DB2FBE000B74835 /* GoogleService-Info (4).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (4).plist"; sourceTree = "<group>"; };
 		45A8EB715924DA9CE2400EFE /* Pods_TourzSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TourzSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9885E0E344CBF89FA9B46F37 /* Pods-TourzSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourzSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TourzSwiftTests/Pods-TourzSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		A3D521DBA6F5AFA30AAC150B /* Pods-TourzSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourzSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TourzSwiftUITests/Pods-TourzSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,7 +142,6 @@
 				3D0DA2511DB19E8000B74835 /* TourzSwiftUITests */,
 				3D0DA2841DB1A39E00B74835 /* SUPPORTING FILES */,
 				3D0DA2301DB19E8000B74835 /* Products */,
-				3D0DA2601DB19EB900B74835 /* GoogleService-Info (2).plist */,
 				8CEE1B2B5060724E5FD0FD78 /* Pods */,
 				368C29D79BE2D16DC63B5B88 /* Frameworks */,
 			);
@@ -178,6 +179,7 @@
 			children = (
 				3D0DA2521DB19E8100B74835 /* TourzSwiftUITests.swift */,
 				3D0DA2541DB19E8100B74835 /* Info.plist */,
+				3D0DA2891DB2FBE000B74835 /* GoogleService-Info (4).plist */,
 			);
 			path = TourzSwiftUITests;
 			sourceTree = "<group>";
@@ -186,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				3D0DA2621DB1A14800B74835 /* LoginViewController.swift */,
+				3D0DA2871DB2FACE00B74835 /* PasswordResetViewController.swift */,
 			);
 			name = FIREBASE;
 			sourceTree = "<group>";
@@ -363,7 +366,6 @@
 				3D0DA2821DB1A37500B74835 /* Rectangle 3 Copy@2x.png in Resources */,
 				3D0DA27B1DB1A37500B74835 /* Rectangle 1.png in Resources */,
 				3D0DA2671DB1A2BF00B74835 /* Main.storyboard in Resources */,
-				3D0DA2611DB19EB900B74835 /* GoogleService-Info (2).plist in Resources */,
 				3D0DA27D1DB1A37500B74835 /* Rectangle 1@3x.png in Resources */,
 				3D0DA2811DB1A37500B74835 /* Rectangle 3 Copy.png in Resources */,
 				3D0DA26D1DB1A35800B74835 /* newyorkpin copy700h.jpg in Resources */,
@@ -383,6 +385,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0DA28A1DB2FBE000B74835 /* GoogleService-Info (4).plist in Resources */,
 				3D0DA2861DB2F1BC00B74835 /* background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,6 +538,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D0DA2531DB19E8100B74835 /* TourzSwiftUITests.swift in Sources */,
+				3D0DA2881DB2FACE00B74835 /* PasswordResetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
