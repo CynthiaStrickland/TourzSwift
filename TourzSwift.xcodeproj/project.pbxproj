@@ -31,6 +31,24 @@
 		3D0DA2861DB2F1BC00B74835 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2851DB2F1BC00B74835 /* background.png */; };
 		3D0DA2881DB2FACE00B74835 /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2871DB2FACE00B74835 /* PasswordResetViewController.swift */; };
 		3D0DA28A1DB2FBE000B74835 /* GoogleService-Info (4).plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2891DB2FBE000B74835 /* GoogleService-Info (4).plist */; };
+		3D0DA28C1DB3F6B100B74835 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA28B1DB3F6B100B74835 /* VideoToolbox.framework */; };
+		3D0DA28E1DB3F6D200B74835 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA28D1DB3F6D200B74835 /* AVFoundation.framework */; };
+		3D0DA2901DB3F6ED00B74835 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA28F1DB3F6ED00B74835 /* MapKit.framework */; };
+		3D0DA2921DB3F70D00B74835 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA2911DB3F70D00B74835 /* SystemConfiguration.framework */; };
+		3D0DA2941DB3F71C00B74835 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA2931DB3F71C00B74835 /* StoreKit.framework */; };
+		3D0DA2961DB3F72500B74835 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA2951DB3F72500B74835 /* Security.framework */; };
+		3D0DA2981DB3F72D00B74835 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA2971DB3F72D00B74835 /* QuartzCore.framework */; };
+		3D0DA29A1DB3F73900B74835 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA2991DB3F73900B74835 /* CoreLocation.framework */; };
+		3D0DA29C1DB3F74A00B74835 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA29B1DB3F74A00B74835 /* AudioToolbox.framework */; };
+		3D0DA29E1DB3F75A00B74835 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA29D1DB3F75A00B74835 /* CFNetwork.framework */; };
+		3D0DA2A01DB3F76900B74835 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA29F1DB3F76900B74835 /* CoreGraphics.framework */; };
+		3D0DA2A21DB3F78700B74835 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA2A11DB3F78700B74835 /* libsqlite3.0.tbd */; };
+		3D0DA2A41DB3F79600B74835 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA2A31DB3F79600B74835 /* libz.1.1.3.tbd */; };
+		3D0DA2A61DB3F7DC00B74835 /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2A51DB3F7DC00B74835 /* CategoryTableViewCell.xib */; };
+		3D0DA2A81DB3F7E400B74835 /* POIDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2A71DB3F7E400B74835 /* POIDetailTableViewCell.xib */; };
+		3D0DA2AA1DB3F7F200B74835 /* LocationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2A91DB3F7F200B74835 /* LocationTableViewCell.xib */; };
+		3D0DA2AC1DB3F80000B74835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2AB1DB3F80000B74835 /* LaunchScreen.storyboard */; };
+		3D0DA2AF1DB3F8B800B74835 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2AE1DB3F8B800B74835 /* VideoPlayerView.swift */; };
 		5A0921E7242D6D2119E87970 /* Pods_TourzSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D394F0119E1C91C1F7459F /* Pods_TourzSwift.framework */; };
 		D977F7588780B3C8E1EFD8CE /* Pods_TourzSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA2694B331830420C9C8DA2 /* Pods_TourzSwiftTests.framework */; };
 /* End PBXBuildFile section */
@@ -84,6 +102,24 @@
 		3D0DA2851DB2F1BC00B74835 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = TourzSwiftUITests/background.png; sourceTree = "<group>"; };
 		3D0DA2871DB2FACE00B74835 /* PasswordResetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
 		3D0DA2891DB2FBE000B74835 /* GoogleService-Info (4).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (4).plist"; sourceTree = "<group>"; };
+		3D0DA28B1DB3F6B100B74835 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		3D0DA28D1DB3F6D200B74835 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3D0DA28F1DB3F6ED00B74835 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3D0DA2911DB3F70D00B74835 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3D0DA2931DB3F71C00B74835 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3D0DA2951DB3F72500B74835 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3D0DA2971DB3F72D00B74835 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3D0DA2991DB3F73900B74835 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3D0DA29B1DB3F74A00B74835 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3D0DA29D1DB3F75A00B74835 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3D0DA29F1DB3F76900B74835 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D0DA2A11DB3F78700B74835 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		3D0DA2A31DB3F79600B74835 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		3D0DA2A51DB3F7DC00B74835 /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
+		3D0DA2A71DB3F7E400B74835 /* POIDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = POIDetailTableViewCell.xib; sourceTree = "<group>"; };
+		3D0DA2A91DB3F7F200B74835 /* LocationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationTableViewCell.xib; sourceTree = "<group>"; };
+		3D0DA2AB1DB3F80000B74835 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D0DA2AE1DB3F8B800B74835 /* VideoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		45A8EB715924DA9CE2400EFE /* Pods_TourzSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TourzSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9885E0E344CBF89FA9B46F37 /* Pods-TourzSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourzSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TourzSwiftTests/Pods-TourzSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		A3D521DBA6F5AFA30AAC150B /* Pods-TourzSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourzSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TourzSwiftUITests/Pods-TourzSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +134,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0DA2A41DB3F79600B74835 /* libz.1.1.3.tbd in Frameworks */,
+				3D0DA2A21DB3F78700B74835 /* libsqlite3.0.tbd in Frameworks */,
+				3D0DA2A01DB3F76900B74835 /* CoreGraphics.framework in Frameworks */,
+				3D0DA29E1DB3F75A00B74835 /* CFNetwork.framework in Frameworks */,
+				3D0DA29C1DB3F74A00B74835 /* AudioToolbox.framework in Frameworks */,
+				3D0DA29A1DB3F73900B74835 /* CoreLocation.framework in Frameworks */,
+				3D0DA2981DB3F72D00B74835 /* QuartzCore.framework in Frameworks */,
+				3D0DA2961DB3F72500B74835 /* Security.framework in Frameworks */,
+				3D0DA2941DB3F71C00B74835 /* StoreKit.framework in Frameworks */,
+				3D0DA2921DB3F70D00B74835 /* SystemConfiguration.framework in Frameworks */,
+				3D0DA2901DB3F6ED00B74835 /* MapKit.framework in Frameworks */,
+				3D0DA28E1DB3F6D200B74835 /* AVFoundation.framework in Frameworks */,
+				3D0DA28C1DB3F6B100B74835 /* VideoToolbox.framework in Frameworks */,
 				5A0921E7242D6D2119E87970 /* Pods_TourzSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,6 +173,19 @@
 		368C29D79BE2D16DC63B5B88 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D0DA2A31DB3F79600B74835 /* libz.1.1.3.tbd */,
+				3D0DA2A11DB3F78700B74835 /* libsqlite3.0.tbd */,
+				3D0DA29F1DB3F76900B74835 /* CoreGraphics.framework */,
+				3D0DA29D1DB3F75A00B74835 /* CFNetwork.framework */,
+				3D0DA29B1DB3F74A00B74835 /* AudioToolbox.framework */,
+				3D0DA2991DB3F73900B74835 /* CoreLocation.framework */,
+				3D0DA2971DB3F72D00B74835 /* QuartzCore.framework */,
+				3D0DA2951DB3F72500B74835 /* Security.framework */,
+				3D0DA2931DB3F71C00B74835 /* StoreKit.framework */,
+				3D0DA2911DB3F70D00B74835 /* SystemConfiguration.framework */,
+				3D0DA28F1DB3F6ED00B74835 /* MapKit.framework */,
+				3D0DA28D1DB3F6D200B74835 /* AVFoundation.framework */,
+				3D0DA28B1DB3F6B100B74835 /* VideoToolbox.framework */,
 				20D394F0119E1C91C1F7459F /* Pods_TourzSwift.framework */,
 				EDA2694B331830420C9C8DA2 /* Pods_TourzSwiftTests.framework */,
 				45A8EB715924DA9CE2400EFE /* Pods_TourzSwiftUITests.framework */,
@@ -135,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				3D0DA2321DB19E8000B74835 /* AppDelegate.swift */,
+				3D0DA2AD1DB3F82900B74835 /* CONTROLLERS */,
 				3D0DA2651DB1A27C00B74835 /* VIEWS */,
 				3D0DA2641DB1A26500B74835 /* FIREBASE */,
 				3D0DA2311DB19E8000B74835 /* TourzSwift */,
@@ -196,7 +259,11 @@
 		3D0DA2651DB1A27C00B74835 /* VIEWS */ = {
 			isa = PBXGroup;
 			children = (
+				3D0DA2A71DB3F7E400B74835 /* POIDetailTableViewCell.xib */,
+				3D0DA2A51DB3F7DC00B74835 /* CategoryTableViewCell.xib */,
+				3D0DA2A91DB3F7F200B74835 /* LocationTableViewCell.xib */,
 				3D0DA2661DB1A2BF00B74835 /* Main.storyboard */,
+				3D0DA2AB1DB3F80000B74835 /* LaunchScreen.storyboard */,
 			);
 			name = VIEWS;
 			sourceTree = "<group>";
@@ -222,6 +289,14 @@
 				3D0DA26E1DB1A35F00B74835 /* seattlesunset copy700.jpg */,
 			);
 			name = "SUPPORTING FILES";
+			sourceTree = "<group>";
+		};
+		3D0DA2AD1DB3F82900B74835 /* CONTROLLERS */ = {
+			isa = PBXGroup;
+			children = (
+				3D0DA2AE1DB3F8B800B74835 /* VideoPlayerView.swift */,
+			);
+			name = CONTROLLERS;
 			sourceTree = "<group>";
 		};
 		8CEE1B2B5060724E5FD0FD78 /* Pods */ = {
@@ -355,6 +430,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0DA2AA1DB3F7F200B74835 /* LocationTableViewCell.xib in Resources */,
 				3D0DA26F1DB1A35F00B74835 /* seattlesunset copy700.jpg in Resources */,
 				3D0DA27F1DB1A37500B74835 /* Rectangle 2 Copy 2@2x.png in Resources */,
 				3D0DA2831DB1A37500B74835 /* Rectangle 3 Copy@3x.png in Resources */,
@@ -364,11 +440,14 @@
 				3D0DA2801DB1A37500B74835 /* Rectangle 2 Copy 2@3x.png in Resources */,
 				3D0DA26B1DB1A35000B74835 /* sandfootprints 700h.jpg in Resources */,
 				3D0DA2821DB1A37500B74835 /* Rectangle 3 Copy@2x.png in Resources */,
+				3D0DA2A81DB3F7E400B74835 /* POIDetailTableViewCell.xib in Resources */,
 				3D0DA27B1DB1A37500B74835 /* Rectangle 1.png in Resources */,
 				3D0DA2671DB1A2BF00B74835 /* Main.storyboard in Resources */,
+				3D0DA2AC1DB3F80000B74835 /* LaunchScreen.storyboard in Resources */,
 				3D0DA27D1DB1A37500B74835 /* Rectangle 1@3x.png in Resources */,
 				3D0DA2811DB1A37500B74835 /* Rectangle 3 Copy.png in Resources */,
 				3D0DA26D1DB1A35800B74835 /* newyorkpin copy700h.jpg in Resources */,
+				3D0DA2A61DB3F7DC00B74835 /* CategoryTableViewCell.xib in Resources */,
 				3D0DA23A1DB19E8000B74835 /* Assets.xcassets in Resources */,
 				3D0DA2711DB1A36500B74835 /* share.png in Resources */,
 			);
@@ -522,6 +601,7 @@
 			files = (
 				3D0DA2631DB1A14800B74835 /* LoginViewController.swift in Sources */,
 				3D0DA2331DB19E8000B74835 /* AppDelegate.swift in Sources */,
+				3D0DA2AF1DB3F8B800B74835 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
