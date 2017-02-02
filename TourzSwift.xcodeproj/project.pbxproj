@@ -50,6 +50,7 @@
 		3D0DA2AC1DB3F80000B74835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2AB1DB3F80000B74835 /* LaunchScreen.storyboard */; };
 		3D0DA2AF1DB3F8B800B74835 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2AE1DB3F8B800B74835 /* VideoPlayerView.swift */; };
 		5A0921E7242D6D2119E87970 /* Pods_TourzSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D394F0119E1C91C1F7459F /* Pods_TourzSwift.framework */; };
+		816B03DA1E43F5280013030C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B03D91E43F5280013030C /* MapViewController.swift */; };
 		D977F7588780B3C8E1EFD8CE /* Pods_TourzSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA2694B331830420C9C8DA2 /* Pods_TourzSwiftTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -121,6 +122,8 @@
 		3D0DA2AB1DB3F80000B74835 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D0DA2AE1DB3F8B800B74835 /* VideoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		45A8EB715924DA9CE2400EFE /* Pods_TourzSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TourzSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		816B03D31E43F1AD0013030C /* TourzSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TourzSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		816B03D91E43F5280013030C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		9885E0E344CBF89FA9B46F37 /* Pods-TourzSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourzSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TourzSwiftTests/Pods-TourzSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		A3D521DBA6F5AFA30AAC150B /* Pods-TourzSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourzSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TourzSwiftUITests/Pods-TourzSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A85E490013555BEECC243162 /* Pods-TourzSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourzSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TourzSwiftTests/Pods-TourzSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -196,10 +199,11 @@
 		3D0DA2261DB19E8000B74835 = {
 			isa = PBXGroup;
 			children = (
+				816B03D91E43F5280013030C /* MapViewController.swift */,
 				3D0DA2321DB19E8000B74835 /* AppDelegate.swift */,
 				3D0DA2AD1DB3F82900B74835 /* CONTROLLERS */,
-				3D0DA2651DB1A27C00B74835 /* VIEWS */,
 				3D0DA2641DB1A26500B74835 /* FIREBASE */,
+				3D0DA2651DB1A27C00B74835 /* VIEWS */,
 				3D0DA2311DB19E8000B74835 /* TourzSwift */,
 				3D0DA2461DB19E8000B74835 /* TourzSwiftTests */,
 				3D0DA2511DB19E8000B74835 /* TourzSwiftUITests */,
@@ -207,6 +211,7 @@
 				3D0DA2301DB19E8000B74835 /* Products */,
 				8CEE1B2B5060724E5FD0FD78 /* Pods */,
 				368C29D79BE2D16DC63B5B88 /* Frameworks */,
+				816B03D31E43F1AD0013030C /* TourzSwift-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -259,10 +264,10 @@
 		3D0DA2651DB1A27C00B74835 /* VIEWS */ = {
 			isa = PBXGroup;
 			children = (
+				3D0DA2661DB1A2BF00B74835 /* Main.storyboard */,
 				3D0DA2A71DB3F7E400B74835 /* POIDetailTableViewCell.xib */,
 				3D0DA2A51DB3F7DC00B74835 /* CategoryTableViewCell.xib */,
 				3D0DA2A91DB3F7F200B74835 /* LocationTableViewCell.xib */,
-				3D0DA2661DB1A2BF00B74835 /* Main.storyboard */,
 				3D0DA2AB1DB3F80000B74835 /* LaunchScreen.storyboard */,
 			);
 			name = VIEWS;
@@ -390,6 +395,7 @@
 					3D0DA22E1DB19E8000B74835 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = LK662Y5U4K;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					3D0DA2421DB19E8000B74835 = {
@@ -618,6 +624,7 @@
 				3D0DA2631DB1A14800B74835 /* LoginViewController.swift in Sources */,
 				3D0DA2331DB19E8000B74835 /* AppDelegate.swift in Sources */,
 				3D0DA2AF1DB3F8B800B74835 /* VideoPlayerView.swift in Sources */,
+				816B03DA1E43F5280013030C /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -754,11 +761,14 @@
 			baseConfigurationReference = 03AB241FDC9B5E055FB80862 /* Pods-TourzSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = LK662Y5U4K;
 				INFOPLIST_FILE = TourzSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cynthiasinclair.TourzSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TourzSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -768,11 +778,13 @@
 			baseConfigurationReference = FC295BC41F5448B7DD4620F9 /* Pods-TourzSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = LK662Y5U4K;
 				INFOPLIST_FILE = TourzSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cynthiasinclair.TourzSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TourzSwift-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

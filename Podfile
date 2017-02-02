@@ -5,6 +5,9 @@ pod ‘Firebase/Core’
 pod ‘Firebase/Auth’
 pod ‘Firebase/Database’
 pod ‘Firebase/Storage’
+pod 'GoogleMaps'
+pod 'GooglePlaces'
+
 
 target 'TourzSwift' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
