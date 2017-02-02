@@ -8,7 +8,6 @@
 
 
 import UIKit
-import Firebase
 import FirebaseAuth
 import FirebaseDatabase
 
@@ -136,7 +135,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
 
         FIRAuth.auth()?.createUser(withEmail: userEmail, password: userPassword, completion: { (user: FIRUser?, error) in
             if error != nil {
-                print(error?.localizedDescription)
+                print(error?.localizedDescription ?? <#default value#>)
                 return
             }
             
