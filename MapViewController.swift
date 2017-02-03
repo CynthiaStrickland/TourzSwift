@@ -29,7 +29,7 @@ class MapViewController: UIViewController {
     
     var currentLocation: TourDestinations?
     
-    let destinations = [TourDestinations(name: "Embarcaderao", location: CLLocationCoordinate2D(latitude: 37.792871, longitude: -122.397055), zoom: 15), TourDestinations(name: "Ferry Building", location: CLLocationCoordinate2D(latitude: 37.795531, longitude: -122.393451), zoom: 15)]
+    let destinations = [TourDestinations(name: "Embarcaderao", location: CLLocationCoordinate2D(latitude: 37.792871, longitude: -122.397055), zoom: 15), TourDestinations(name: "Ferry Building", location: CLLocationCoordinate2D(latitude: 37.795531, longitude: -122.393451), zoom: 18)]
     
     @IBOutlet weak var map: GMSMapView!
     
@@ -68,6 +68,7 @@ class MapViewController: UIViewController {
         CATransaction.setValue(1.5, forKey: kCATransactionAnimationDuration)
         
         mapView?.animate(to: GMSCameraPosition.camera(withTarget: currentLocation!.location, zoom: currentLocation!.zoom))
+        CATransaction.commit()
         
         let marker = GMSMarker(position: currentLocation!.location)
         marker.title = currentLocation?.name
