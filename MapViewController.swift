@@ -52,16 +52,26 @@ class MapViewController: UIViewController {
     }
     
     func next() {
-        
         if currentLocation == nil {
             currentLocation = destinations.first
-            
-            mapView?.camera = GMSCameraPosition.camera(withTarget: currentLocation!.location, zoom: currentLocation!.zoom)
-            
-            let marker = GMSMarker(position: currentLocation!.location)
-            marker.title = currentLocation?.name
-            marker.map = mapView
+        } else {
+            if let index = destinations.index(of: currentLocation!) {
+                currentLocation = destinations[index + 1]
+            }
         }
+        
+        setMapCamera()
+    }
+    
+    private func setMapCamera() {
+        CATransaction.begin()
+        CATransaction.setValue(1.5, forKey: kCATransactionAnimationDuration)
+        
+        mapView?.animate(to: GMSCameraPosition.camera(withTarget: currentLocation!.location, zoom: currentLocation!.zoom))
+        
+        let marker = GMSMarker(position: currentLocation!.location)
+        marker.title = currentLocation?.name
+        marker.map = mapView
     }
     
     

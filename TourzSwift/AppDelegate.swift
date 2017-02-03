@@ -10,10 +10,10 @@ import UIKit
 import GoogleMaps
 import GooglePlaces
 
-import Firebase
-import FirebaseDatabase
-import FirebaseAuth
-import FirebaseStorage
+//import Firebase
+//import FirebaseDatabase
+//import FirebaseAuth
+//import FirebaseStorage
 
 
 @UIApplicationMain
