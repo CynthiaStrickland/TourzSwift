@@ -10,9 +10,28 @@ import UIKit
 import GoogleMaps
 import GooglePlaces
 
+class TourDestinations: NSObject {
+    
+    let name: String
+    let location: CLLocationCoordinate2D
+    let zoom: Float
+    
+    
+    init(name:String, location:CLLocationCoordinate2D, zoom:Float) {
+        self.name = name
+        self.location = location
+        self.zoom = zoom
+    }
+}
 class MapViewController: UIViewController {
 
     var mapView: GMSMapView?
+    
+    var currentLocation: TourDestinations?
+    
+    let destinations = [TourDestinations(name: "Embarcaderao", location: CLLocationCoordinate2D(latitude: 37.792871, longitude: -122.397055), zoom: 15), TourDestinations(name: "Ferry Building", location: CLLocationCoordinate2D(latitude: 37.795531, longitude: -122.393451), zoom: 15)]
+    
+    @IBOutlet weak var map: GMSMapView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,13 +52,16 @@ class MapViewController: UIViewController {
     }
     
     func next() {
-        let nextLocation = CLLocationCoordinate2DMake(37.792871, -122.397055)
-        mapView?.camera = GMSCameraPosition.camera(withLatitude: nextLocation.latitude, longitude: nextLocation.longitude, zoom: 15)
-        let marker = GMSMarker(position: nextLocation)
-        marker.title = "Embarcadero Station"
-        marker.snippet = "Subway"
-        marker.map = mapView
         
+        if currentLocation == nil {
+            currentLocation = destinations.first
+            
+            mapView?.camera = GMSCameraPosition.camera(withTarget: currentLocation!.location, zoom: currentLocation!.zoom)
+            
+            let marker = GMSMarker(position: currentLocation!.location)
+            marker.title = currentLocation?.name
+            marker.map = mapView
+        }
     }
     
     

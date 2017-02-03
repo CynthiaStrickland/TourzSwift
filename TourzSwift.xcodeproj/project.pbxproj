@@ -12,24 +12,7 @@
 		3D0DA23A1DB19E8000B74835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2391DB19E8000B74835 /* Assets.xcassets */; };
 		3D0DA2481DB19E8000B74835 /* TourzSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2471DB19E8000B74835 /* TourzSwiftTests.swift */; };
 		3D0DA2531DB19E8100B74835 /* TourzSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2521DB19E8100B74835 /* TourzSwiftUITests.swift */; };
-		3D0DA2631DB1A14800B74835 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2621DB1A14800B74835 /* LoginViewController.swift */; };
 		3D0DA2671DB1A2BF00B74835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2661DB1A2BF00B74835 /* Main.storyboard */; };
-		3D0DA2691DB1A34900B74835 /* goldengatebridge copy700.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2681DB1A34900B74835 /* goldengatebridge copy700.jpg */; };
-		3D0DA26B1DB1A35000B74835 /* sandfootprints 700h.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA26A1DB1A35000B74835 /* sandfootprints 700h.jpg */; };
-		3D0DA26D1DB1A35800B74835 /* newyorkpin copy700h.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA26C1DB1A35800B74835 /* newyorkpin copy700h.jpg */; };
-		3D0DA26F1DB1A35F00B74835 /* seattlesunset copy700.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA26E1DB1A35F00B74835 /* seattlesunset copy700.jpg */; };
-		3D0DA2711DB1A36500B74835 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2701DB1A36500B74835 /* share.png */; };
-		3D0DA27B1DB1A37500B74835 /* Rectangle 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2721DB1A37500B74835 /* Rectangle 1.png */; };
-		3D0DA27C1DB1A37500B74835 /* Rectangle 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2731DB1A37500B74835 /* Rectangle 1@2x.png */; };
-		3D0DA27D1DB1A37500B74835 /* Rectangle 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2741DB1A37500B74835 /* Rectangle 1@3x.png */; };
-		3D0DA27E1DB1A37500B74835 /* Rectangle 2 Copy 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2751DB1A37500B74835 /* Rectangle 2 Copy 2.png */; };
-		3D0DA27F1DB1A37500B74835 /* Rectangle 2 Copy 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2761DB1A37500B74835 /* Rectangle 2 Copy 2@2x.png */; };
-		3D0DA2801DB1A37500B74835 /* Rectangle 2 Copy 2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2771DB1A37500B74835 /* Rectangle 2 Copy 2@3x.png */; };
-		3D0DA2811DB1A37500B74835 /* Rectangle 3 Copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2781DB1A37500B74835 /* Rectangle 3 Copy.png */; };
-		3D0DA2821DB1A37500B74835 /* Rectangle 3 Copy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2791DB1A37500B74835 /* Rectangle 3 Copy@2x.png */; };
-		3D0DA2831DB1A37500B74835 /* Rectangle 3 Copy@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA27A1DB1A37500B74835 /* Rectangle 3 Copy@3x.png */; };
-		3D0DA2861DB2F1BC00B74835 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2851DB2F1BC00B74835 /* background.png */; };
-		3D0DA2881DB2FACE00B74835 /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2871DB2FACE00B74835 /* PasswordResetViewController.swift */; };
 		3D0DA28A1DB2FBE000B74835 /* GoogleService-Info (4).plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2891DB2FBE000B74835 /* GoogleService-Info (4).plist */; };
 		3D0DA28C1DB3F6B100B74835 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA28B1DB3F6B100B74835 /* VideoToolbox.framework */; };
 		3D0DA28E1DB3F6D200B74835 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA28D1DB3F6D200B74835 /* AVFoundation.framework */; };
@@ -44,13 +27,12 @@
 		3D0DA2A01DB3F76900B74835 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA29F1DB3F76900B74835 /* CoreGraphics.framework */; };
 		3D0DA2A21DB3F78700B74835 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA2A11DB3F78700B74835 /* libsqlite3.0.tbd */; };
 		3D0DA2A41DB3F79600B74835 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0DA2A31DB3F79600B74835 /* libz.1.1.3.tbd */; };
-		3D0DA2A61DB3F7DC00B74835 /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2A51DB3F7DC00B74835 /* CategoryTableViewCell.xib */; };
-		3D0DA2A81DB3F7E400B74835 /* POIDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2A71DB3F7E400B74835 /* POIDetailTableViewCell.xib */; };
-		3D0DA2AA1DB3F7F200B74835 /* LocationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2A91DB3F7F200B74835 /* LocationTableViewCell.xib */; };
 		3D0DA2AC1DB3F80000B74835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA2AB1DB3F80000B74835 /* LaunchScreen.storyboard */; };
-		3D0DA2AF1DB3F8B800B74835 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DA2AE1DB3F8B800B74835 /* VideoPlayerView.swift */; };
 		5A0921E7242D6D2119E87970 /* Pods_TourzSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D394F0119E1C91C1F7459F /* Pods_TourzSwift.framework */; };
 		816B03DA1E43F5280013030C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B03D91E43F5280013030C /* MapViewController.swift */; };
+		81EE897E1E43FDE20049C49C /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81EE897D1E43FDE20049C49C /* iTunesArtwork@1x.png */; };
+		81EE89801E43FECF0049C49C /* FirebaseLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE897F1E43FECF0049C49C /* FirebaseLoginViewController.swift */; };
+		81EE89821E450CAF0049C49C /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EE89811E450CAF0049C49C /* Locations.swift */; };
 		D977F7588780B3C8E1EFD8CE /* Pods_TourzSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA2694B331830420C9C8DA2 /* Pods_TourzSwiftTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,31 +59,14 @@
 		3D0DA22F1DB19E8000B74835 /* TourzSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourzSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D0DA2321DB19E8000B74835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = TourzSwift/AppDelegate.swift; sourceTree = "<group>"; };
 		3D0DA2391DB19E8000B74835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TourzSwift/Assets.xcassets; sourceTree = "<group>"; };
-		3D0DA23E1DB19E8000B74835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D0DA23E1DB19E8000B74835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = TourzSwift/Info.plist; sourceTree = "<group>"; };
 		3D0DA2431DB19E8000B74835 /* TourzSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TourzSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D0DA2471DB19E8000B74835 /* TourzSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourzSwiftTests.swift; sourceTree = "<group>"; };
 		3D0DA2491DB19E8000B74835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D0DA24E1DB19E8000B74835 /* TourzSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TourzSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D0DA2521DB19E8100B74835 /* TourzSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourzSwiftUITests.swift; sourceTree = "<group>"; };
 		3D0DA2541DB19E8100B74835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D0DA2621DB1A14800B74835 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3D0DA2661DB1A2BF00B74835 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		3D0DA2681DB1A34900B74835 /* goldengatebridge copy700.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "goldengatebridge copy700.jpg"; path = "TourzSwift/goldengatebridge copy700.jpg"; sourceTree = "<group>"; };
-		3D0DA26A1DB1A35000B74835 /* sandfootprints 700h.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sandfootprints 700h.jpg"; path = "TourzSwift/sandfootprints 700h.jpg"; sourceTree = "<group>"; };
-		3D0DA26C1DB1A35800B74835 /* newyorkpin copy700h.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "newyorkpin copy700h.jpg"; path = "TourzSwift/newyorkpin copy700h.jpg"; sourceTree = "<group>"; };
-		3D0DA26E1DB1A35F00B74835 /* seattlesunset copy700.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "seattlesunset copy700.jpg"; path = "TourzSwift/seattlesunset copy700.jpg"; sourceTree = "<group>"; };
-		3D0DA2701DB1A36500B74835 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share.png; path = TourzSwift/share.png; sourceTree = "<group>"; };
-		3D0DA2721DB1A37500B74835 /* Rectangle 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rectangle 1.png"; path = "TourzSwift/Rectangle 1.png"; sourceTree = "<group>"; };
-		3D0DA2731DB1A37500B74835 /* Rectangle 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rectangle 1@2x.png"; path = "TourzSwift/Rectangle 1@2x.png"; sourceTree = "<group>"; };
-		3D0DA2741DB1A37500B74835 /* Rectangle 1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rectangle 1@3x.png"; path = "TourzSwift/Rectangle 1@3x.png"; sourceTree = "<group>"; };
-		3D0DA2751DB1A37500B74835 /* Rectangle 2 Copy 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rectangle 2 Copy 2.png"; path = "TourzSwift/Rectangle 2 Copy 2.png"; sourceTree = "<group>"; };
-		3D0DA2761DB1A37500B74835 /* Rectangle 2 Copy 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rectangle 2 Copy 2@2x.png"; path = "TourzSwift/Rectangle 2 Copy 2@2x.png"; sourceTree = "<group>"; };
-		3D0DA2771DB1A37500B74835 /* Rectangle 2 Copy 2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rectangle 2 Copy 2@3x.png"; path = "TourzSwift/Rectangle 2 Copy 2@3x.png"; sourceTree = "<group>"; };
-		3D0DA2781DB1A37500B74835 /* Rectangle 3 Copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rectangle 3 Copy.png"; path = "TourzSwift/Rectangle 3 Copy.png"; sourceTree = "<group>"; };
-		3D0DA2791DB1A37500B74835 /* Rectangle 3 Copy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rectangle 3 Copy@2x.png"; path = "TourzSwift/Rectangle 3 Copy@2x.png"; sourceTree = "<group>"; };
-		3D0DA27A1DB1A37500B74835 /* Rectangle 3 Copy@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rectangle 3 Copy@3x.png"; path = "TourzSwift/Rectangle 3 Copy@3x.png"; sourceTree = "<group>"; };
-		3D0DA2851DB2F1BC00B74835 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = TourzSwiftUITests/background.png; sourceTree = "<group>"; };
-		3D0DA2871DB2FACE00B74835 /* PasswordResetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
 		3D0DA2891DB2FBE000B74835 /* GoogleService-Info (4).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (4).plist"; sourceTree = "<group>"; };
 		3D0DA28B1DB3F6B100B74835 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		3D0DA28D1DB3F6D200B74835 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -116,14 +81,13 @@
 		3D0DA29F1DB3F76900B74835 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3D0DA2A11DB3F78700B74835 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		3D0DA2A31DB3F79600B74835 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
-		3D0DA2A51DB3F7DC00B74835 /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
-		3D0DA2A71DB3F7E400B74835 /* POIDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = POIDetailTableViewCell.xib; sourceTree = "<group>"; };
-		3D0DA2A91DB3F7F200B74835 /* LocationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationTableViewCell.xib; sourceTree = "<group>"; };
 		3D0DA2AB1DB3F80000B74835 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3D0DA2AE1DB3F8B800B74835 /* VideoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		45A8EB715924DA9CE2400EFE /* Pods_TourzSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TourzSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		816B03D31E43F1AD0013030C /* TourzSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TourzSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		816B03D91E43F5280013030C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		81EE897D1E43FDE20049C49C /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
+		81EE897F1E43FECF0049C49C /* FirebaseLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseLoginViewController.swift; sourceTree = "<group>"; };
+		81EE89811E450CAF0049C49C /* Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		9885E0E344CBF89FA9B46F37 /* Pods-TourzSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourzSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TourzSwiftTests/Pods-TourzSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		A3D521DBA6F5AFA30AAC150B /* Pods-TourzSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourzSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TourzSwiftUITests/Pods-TourzSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A85E490013555BEECC243162 /* Pods-TourzSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourzSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TourzSwiftTests/Pods-TourzSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -199,12 +163,12 @@
 		3D0DA2261DB19E8000B74835 = {
 			isa = PBXGroup;
 			children = (
-				816B03D91E43F5280013030C /* MapViewController.swift */,
+				81EE89811E450CAF0049C49C /* Locations.swift */,
+				3D0DA23E1DB19E8000B74835 /* Info.plist */,
 				3D0DA2321DB19E8000B74835 /* AppDelegate.swift */,
 				3D0DA2AD1DB3F82900B74835 /* CONTROLLERS */,
-				3D0DA2641DB1A26500B74835 /* FIREBASE */,
 				3D0DA2651DB1A27C00B74835 /* VIEWS */,
-				3D0DA2311DB19E8000B74835 /* TourzSwift */,
+				3D0DA2641DB1A26500B74835 /* FIREBASE CONTROLLERS */,
 				3D0DA2461DB19E8000B74835 /* TourzSwiftTests */,
 				3D0DA2511DB19E8000B74835 /* TourzSwiftUITests */,
 				3D0DA2841DB1A39E00B74835 /* SUPPORTING FILES */,
@@ -223,14 +187,6 @@
 				3D0DA24E1DB19E8000B74835 /* TourzSwiftUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		3D0DA2311DB19E8000B74835 /* TourzSwift */ = {
-			isa = PBXGroup;
-			children = (
-				3D0DA23E1DB19E8000B74835 /* Info.plist */,
-			);
-			path = TourzSwift;
 			sourceTree = "<group>";
 		};
 		3D0DA2461DB19E8000B74835 /* TourzSwiftTests */ = {
@@ -252,22 +208,18 @@
 			path = TourzSwiftUITests;
 			sourceTree = "<group>";
 		};
-		3D0DA2641DB1A26500B74835 /* FIREBASE */ = {
+		3D0DA2641DB1A26500B74835 /* FIREBASE CONTROLLERS */ = {
 			isa = PBXGroup;
 			children = (
-				3D0DA2621DB1A14800B74835 /* LoginViewController.swift */,
-				3D0DA2871DB2FACE00B74835 /* PasswordResetViewController.swift */,
+				81EE897F1E43FECF0049C49C /* FirebaseLoginViewController.swift */,
 			);
-			name = FIREBASE;
+			name = "FIREBASE CONTROLLERS";
 			sourceTree = "<group>";
 		};
 		3D0DA2651DB1A27C00B74835 /* VIEWS */ = {
 			isa = PBXGroup;
 			children = (
 				3D0DA2661DB1A2BF00B74835 /* Main.storyboard */,
-				3D0DA2A71DB3F7E400B74835 /* POIDetailTableViewCell.xib */,
-				3D0DA2A51DB3F7DC00B74835 /* CategoryTableViewCell.xib */,
-				3D0DA2A91DB3F7F200B74835 /* LocationTableViewCell.xib */,
 				3D0DA2AB1DB3F80000B74835 /* LaunchScreen.storyboard */,
 			);
 			name = VIEWS;
@@ -276,22 +228,8 @@
 		3D0DA2841DB1A39E00B74835 /* SUPPORTING FILES */ = {
 			isa = PBXGroup;
 			children = (
-				3D0DA2851DB2F1BC00B74835 /* background.png */,
 				3D0DA2391DB19E8000B74835 /* Assets.xcassets */,
-				3D0DA2721DB1A37500B74835 /* Rectangle 1.png */,
-				3D0DA2731DB1A37500B74835 /* Rectangle 1@2x.png */,
-				3D0DA2741DB1A37500B74835 /* Rectangle 1@3x.png */,
-				3D0DA2751DB1A37500B74835 /* Rectangle 2 Copy 2.png */,
-				3D0DA2761DB1A37500B74835 /* Rectangle 2 Copy 2@2x.png */,
-				3D0DA2771DB1A37500B74835 /* Rectangle 2 Copy 2@3x.png */,
-				3D0DA2781DB1A37500B74835 /* Rectangle 3 Copy.png */,
-				3D0DA2791DB1A37500B74835 /* Rectangle 3 Copy@2x.png */,
-				3D0DA27A1DB1A37500B74835 /* Rectangle 3 Copy@3x.png */,
-				3D0DA2681DB1A34900B74835 /* goldengatebridge copy700.jpg */,
-				3D0DA2701DB1A36500B74835 /* share.png */,
-				3D0DA26A1DB1A35000B74835 /* sandfootprints 700h.jpg */,
-				3D0DA26C1DB1A35800B74835 /* newyorkpin copy700h.jpg */,
-				3D0DA26E1DB1A35F00B74835 /* seattlesunset copy700.jpg */,
+				81EE897D1E43FDE20049C49C /* iTunesArtwork@1x.png */,
 			);
 			name = "SUPPORTING FILES";
 			sourceTree = "<group>";
@@ -299,7 +237,7 @@
 		3D0DA2AD1DB3F82900B74835 /* CONTROLLERS */ = {
 			isa = PBXGroup;
 			children = (
-				3D0DA2AE1DB3F8B800B74835 /* VideoPlayerView.swift */,
+				816B03D91E43F5280013030C /* MapViewController.swift */,
 			);
 			name = CONTROLLERS;
 			sourceTree = "<group>";
@@ -437,26 +375,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D0DA2AA1DB3F7F200B74835 /* LocationTableViewCell.xib in Resources */,
-				3D0DA26F1DB1A35F00B74835 /* seattlesunset copy700.jpg in Resources */,
-				3D0DA27F1DB1A37500B74835 /* Rectangle 2 Copy 2@2x.png in Resources */,
-				3D0DA2831DB1A37500B74835 /* Rectangle 3 Copy@3x.png in Resources */,
-				3D0DA27E1DB1A37500B74835 /* Rectangle 2 Copy 2.png in Resources */,
-				3D0DA27C1DB1A37500B74835 /* Rectangle 1@2x.png in Resources */,
-				3D0DA2691DB1A34900B74835 /* goldengatebridge copy700.jpg in Resources */,
-				3D0DA2801DB1A37500B74835 /* Rectangle 2 Copy 2@3x.png in Resources */,
-				3D0DA26B1DB1A35000B74835 /* sandfootprints 700h.jpg in Resources */,
-				3D0DA2821DB1A37500B74835 /* Rectangle 3 Copy@2x.png in Resources */,
-				3D0DA2A81DB3F7E400B74835 /* POIDetailTableViewCell.xib in Resources */,
-				3D0DA27B1DB1A37500B74835 /* Rectangle 1.png in Resources */,
 				3D0DA2671DB1A2BF00B74835 /* Main.storyboard in Resources */,
 				3D0DA2AC1DB3F80000B74835 /* LaunchScreen.storyboard in Resources */,
-				3D0DA27D1DB1A37500B74835 /* Rectangle 1@3x.png in Resources */,
-				3D0DA2811DB1A37500B74835 /* Rectangle 3 Copy.png in Resources */,
-				3D0DA26D1DB1A35800B74835 /* newyorkpin copy700h.jpg in Resources */,
-				3D0DA2A61DB3F7DC00B74835 /* CategoryTableViewCell.xib in Resources */,
+				81EE897E1E43FDE20049C49C /* iTunesArtwork@1x.png in Resources */,
 				3D0DA23A1DB19E8000B74835 /* Assets.xcassets in Resources */,
-				3D0DA2711DB1A36500B74835 /* share.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,7 +394,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D0DA28A1DB2FBE000B74835 /* GoogleService-Info (4).plist in Resources */,
-				3D0DA2861DB2F1BC00B74835 /* background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,9 +542,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D0DA2631DB1A14800B74835 /* LoginViewController.swift in Sources */,
+				81EE89801E43FECF0049C49C /* FirebaseLoginViewController.swift in Sources */,
 				3D0DA2331DB19E8000B74835 /* AppDelegate.swift in Sources */,
-				3D0DA2AF1DB3F8B800B74835 /* VideoPlayerView.swift in Sources */,
+				81EE89821E450CAF0049C49C /* Locations.swift in Sources */,
 				816B03DA1E43F5280013030C /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -641,7 +562,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D0DA2531DB19E8100B74835 /* TourzSwiftUITests.swift in Sources */,
-				3D0DA2881DB2FACE00B74835 /* PasswordResetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

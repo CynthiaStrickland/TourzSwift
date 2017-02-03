@@ -21,17 +21,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        FIRApp.configure()
-        FIRDatabase.database().persistenceEnabled = true
 
         GMSServices.provideAPIKey("AIzaSyBxf_HKoQMBH5cZNP8hQ1D9Wn1weR7j_14")
         GMSPlacesClient.provideAPIKey("AIzaSyBxf_HKoQMBH5cZNP8hQ1D9Wn1weR7j_14")
+        
         return true
-    }
-    
-    func applicationWillTerminate(application: UIApplication) {
     }
 
 }
